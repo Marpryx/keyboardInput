@@ -1,0 +1,14 @@
+#get the username from a prompt
+username = input("Enter Login: >> ")
+
+#list of allowed users
+user1 = "Maryna"
+user2 = "Em"
+
+#control that the user belongs to the list of allowed users
+if username == user1:
+    print ("Welcome Maryna")
+elif username == user2:
+    print ("Welcome Em")
+else:
+    print ("Access denied")
